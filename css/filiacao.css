@@ -1,0 +1,23 @@
+@import url('./root.css');
+
+/*? Filiação */
+
+.filiacao {
+    margin: 0 auto;
+    padding: 2rem 0;
+}
+
+.wrap {
+    display: flex;
+    width: 100%;
+    background-color: var(--light-three);
+    padding: 2rem;
+}
+
+.wrap img {
+    max-width: 200px;
+    margin: 0 25px;
+}
+
+
+/*! End filiação */

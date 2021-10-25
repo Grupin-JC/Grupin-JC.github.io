@@ -1,0 +1,84 @@
+@import url('./root.css');
+
+/*? Projetos */
+
+.projetos {
+    padding: 3rem 0;
+}
+
+.cards-search {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-search {
+    display: flex;
+    flex-basis: 28.3%;
+    margin: 2rem;
+}
+
+.card-search .card {
+    align-self: center;
+}
+
+.services__modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, .5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 1rem;
+    z-index: 500;
+    opacity: 0;
+    visibility: hidden;
+    transition: .3s;
+}
+
+.services__modal-content {
+    position: relative;
+    background-color: var(--light-two);
+    padding: 4rem;
+    border-radius: .5rem;
+}
+
+.services__modal-services {
+    row-gap: 1rem;
+}
+
+.services__modal-service {
+    display: flex;
+}
+
+.services__modal-title {
+    font-size: 2rem;
+    font-weight: 500;
+    margin-bottom: 1.5rem;
+}
+
+.services__modal-close {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    font-size: 1.5rem;
+    color: var(--main-color);
+    cursor: pointer;
+}
+
+.services__modal-close:hover {
+    color: #9142be;
+}
+
+.active-modal {
+    opacity: 1;
+    visibility: visible;
+}
+
+
+/*! End Projetos */

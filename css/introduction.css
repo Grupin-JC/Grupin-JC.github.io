@@ -1,0 +1,26 @@
+@import url('./root.css');
+
+/*? Introdução */
+
+.introducao {
+    padding: 3rem 0;
+}
+
+.info {
+    margin-top: 2rem;
+}
+
+.description-project {
+    width: 77%;
+    text-align: justify;
+    align-self: center;
+    text-indent: 1.5rem;
+    transform: translateX(22%);
+}
+
+figure figcaption {
+    color: var(--dark-two);
+}
+
+
+/*! End introdução */

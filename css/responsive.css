@@ -1,0 +1,493 @@
+@import url('./root.css');
+
+/** Responsive */
+
+@media (max-width:1280px) {
+    .text {
+        font-size: 1rem;
+    }
+    .title {
+        font-size: 2.1rem;
+        padding-bottom: .65rem;
+    }
+    .title::before {
+        margin-bottom: .2rem;
+        font-size: .8rem;
+        letter-spacing: 2px;
+    }
+    .title::after {
+        height: 3.5px;
+        width: 70px;
+    }
+    .title-sm {
+        font-size: 1.2rem;
+    }
+    .btn {
+        padding: .75rem 1.7rem;
+        font-size: .8rem;
+    }
+    .btn-small {
+        padding: .65rem 1.6rem;
+        font-size: .7rem;
+    }
+    .section-header .text {
+        max-width: 500px;
+    }
+    .section {
+        padding: 4.5rem 0;
+    }
+    .column-1 {
+        margin-right: 1rem;
+    }
+    .column-2 {
+        margin-left: 1rem;
+    }
+    .overlay.overlay-lg .shape {
+        height: 35px;
+    }
+    .overlay.overlay-lg .shape.wave {
+        height: initial;
+        width: 63px;
+    }
+    .overlay.overlay-sm .shape {
+        height: 24px;
+    }
+    .overlay.overlay-sm .shape.wave {
+        height: initial;
+        width: 39px;
+    }
+    header .points1 {
+        width: 270px;
+        bottom: -75px;
+        left: -50px;
+    }
+    header .points2 {
+        width: 340px;
+    }
+    .header-content .image .img-element {
+        max-width: 700px;
+    }
+    nav .container {
+        height: 4.5rem;
+    }
+    .header-content .container.grid-2 {
+        min-height: calc(100vh - 4.5rem);
+        padding-bottom: 1.5rem;
+    }
+    .logo {
+        width: 80px;
+    }
+    .links a {
+        font-size: .8rem;
+        padding: .65rem .7rem;
+    }
+    .links a.active {
+        font-size: .7rem;
+        padding: .7rem 1.7rem;
+        margin-left: .6rem;
+    }
+    .header-title {
+        font-size: 2.6rem;
+    }
+    .header-content .text {
+        margin: 1.1rem 0;
+    }
+    .card {
+        min-height: 390px;
+        max-width: 290px;
+        padding: 2.2rem 1.5rem;
+    }
+    .icon {
+        width: 80%;
+        margin-bottom: 0.8rem;
+    }
+    .card .text {
+        font-size: .9rem;
+        margin: 1rem 0;
+    }
+    .card::before {
+        font-size: 5rem;
+    }
+    .card-wrap {
+        margin: 1rem .6rem;
+    }
+    .card-search .card {
+        min-width: 320px;
+    }
+    .card-search .card .icon {
+        width: 75%;
+    }
+    .contact {
+        padding: 9rem 0 6rem 0;
+    }
+    .contact-form {
+        padding-left: 1rem;
+    }
+    .contact-info {
+        padding-right: 1rem;
+    }
+    .contact-box {
+        padding: 3.6rem 3rem;
+    }
+    .information-wrap {
+        margin-top: 1.2rem;
+    }
+    .contact-icon {
+        min-width: 50px;
+        height: 50px;
+        font-size: 1rem;
+        margin-right: .8rem;
+    }
+    .contact-icon i {
+        line-height: 50px;
+    }
+    .info-text {
+        font-size: 1.05rem;
+    }
+    .contact-input {
+        font-size: .9rem;
+        padding: .9rem 1.6rem;
+        margin: .4rem 0;
+    }
+    .footer {
+        padding: 4rem 0;
+    }
+    .footer-links a {
+        font-size: 1rem;
+    }
+    .footer .title-sm {
+        margin-bottom: 0.5rem;
+    }
+    .footer-input-wrap {
+        height: 36px;
+        margin-top: .8rem;
+    }
+    .footer-input {
+        font-size: .9rem;
+        padding: 0 1.2rem;
+    }
+    .input-arrow {
+        font-size: 1.2rem;
+    }
+    .copyright .text {
+        font-size: .95rem;
+    }
+    .followme h3 {
+        font-size: 1.05rem;
+    }
+    .followme .footer-line {
+        margin: 0 .8rem;
+    }
+    .social-media a {
+        font-size: 1.05rem;
+    }
+    .back-btn-wrap {
+        margin-left: 1.3rem;
+    }
+    .back-btn {
+        width: 43px;
+        height: 43px;
+        font-size: .9rem;
+    }
+    .back-btn-wrap::before {
+        width: 45px;
+        height: 45px;
+    }
+}
+
+@media (max-width: 1113px) {
+    .cards {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .cards-search {
+        padding-left: 0;
+    }
+    .card {
+        min-width: 386px;
+    }
+    .icon {
+        width: 55%;
+    }
+}
+
+@media (max-width:1020px) {
+    .wrap img {
+        width: 25%;
+    }
+    .card-search {
+        margin: 2rem;
+    }
+}
+
+@media (max-width:922px) {
+    .info {
+        display: block;
+    }
+    .description-project {
+        margin-left: -3rem;
+        margin-right: 0;
+    }
+    .cards-search {
+        padding-left: 0;
+    }
+    .card-search {
+        margin: 2rem;
+    }
+    .logo-project {
+        padding: 4rem;
+    }
+    .wrap {
+        width: 100%;
+    }
+    .wrap .container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .wrap .container img {
+        width: 80% !important;
+        margin: 1rem;
+    }
+}
+
+@media (min-width: 850px) {
+    .hamburguer-menu {
+        display: none;
+    }
+}
+
+@media (max-width:850px) {
+    .grid-2 {
+        grid-template-columns: 1fr !important;
+    }
+    .column-1 {
+        margin-right: 0;
+        margin-bottom: 1rem;
+    }
+    .column-2 {
+        margin-left: 0;
+        margin-top: 1rem;
+    }
+    .header-content {
+        margin-top: 3rem;
+    }
+    .header-title {
+        font-size: 2.3rem;
+    }
+    .header-content .image {
+        max-width: 500px;
+        margin: 0 auto;
+    }
+    header .column-1 {
+        max-width: 550px;
+        margin: 0 auto;
+    }
+    .links {
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        top: 0;
+        right: 0;
+        background-color: #251030;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        transform: translateX(100%);
+        transition: .5s;
+    }
+    .links ul {
+        flex-direction: column;
+    }
+    .links a {
+        color: var(--light-one);
+    }
+    .links a.active {
+        margin-left: 0;
+        margin: .5rem 0;
+    }
+    .header-content .container.grid-2 {
+        min-height: 80vh;
+    }
+    header .points1 {
+        display: none;
+    }
+    header .rocket2 {
+        left: 5%;
+        top: 80%;
+    }
+    header .saturn {
+        right: 68%;
+        top: 51%;
+    }
+    header .earth {
+        right: 20%;
+        bottom: 48%;
+    }
+    .contact-box {
+        grid-template-columns: 1fr;
+        padding: 3.2rem 2.7rem;
+    }
+    .contact-info {
+        padding-right: 0;
+        padding-bottom: .5rem;
+    }
+    .contact-form {
+        padding-left: 0;
+        padding-top: .5rem;
+    }
+    .information-wrap {
+        margin-top: .7rem;
+    }
+    .information:not(:last-child) {
+        margin-bottom: .8rem;
+    }
+    .contact-input.textarea {
+        min-height: 220px;
+    }
+    .contact::before {
+        height: 25%;
+    }
+    .contact::after {
+        height: 75%;
+        top: 25%;
+    }
+    .footer .grid-4 {
+        grid-template-columns: repeat(2, 1fr);
+        max-width: 500px;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .footer-about {
+        grid-column: 1/3;
+    }
+    .footer-newsletter {
+        grid-column: 1/3;
+    }
+    .grid-4-col {
+        margin: 1rem 0;
+        padding: 0;
+    }
+    .footer-input-wrap {
+        max-width: 300px;
+        margin: .95rem auto 0 auto;
+        grid-template-columns: auto 45px;
+    }
+    .bottom-footer {
+        flex-direction: column;
+        justify-items: center;
+        align-items: center;
+        padding: 1.5rem 0 0 0;
+        margin-top: 2.5rem;
+        position: relative;
+    }
+    .bottom-footer::before {
+        content: "";
+        position: absolute;
+        width: 90%;
+        max-width: 500px;
+        height: 1px;
+        background-color: #7b7b7b;
+        top: 0;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .followme-wrap {
+        margin-top: .8rem;
+    }
+}
+
+@media (max-width: 812px) {
+    .links a {
+        font-size: 1.4rem;
+    }
+    .links a.active {
+        font-size: 1.2rem;
+    }
+    .cards {
+        display: flex !important;
+        flex-direction: column !important;
+        justify-content: center !important;
+        padding-left: 0;
+    }
+    .card-search {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+    .card-search .card .card-content .icon {
+        width: 200px;
+        height: 200px;
+    }
+}
+
+@media (max-width: 571px) {
+    .contact-box {
+        padding-left: 2rem;
+    }
+    .contact-form .row {
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-column-gap: 0.6rem;
+    }
+    .contact-form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .contact-form .title {
+        display: flex;
+        align-self: flex-start;
+    }
+    .contact-form .btn {
+        max-width: 100px;
+    }
+    .information {
+        max-width: 18rem;
+    }
+    .information:nth-child(2) {
+        display: none;
+    }
+    .contact-input {
+        max-width: 30rem;
+    }
+}
+
+@media (max-width: 360px) {
+    .container {
+        padding: 2rem;
+    }
+    .description-project {
+        margin-left: -1rem;
+    }
+    .logo-project {
+        padding: 1rem 1.5rem;
+    }
+    .card {
+        min-width: 270px;
+        width: 100%;
+    }
+    .cards-search {
+        align-items: center !important;
+    }
+    .icon {
+        width: 85%;
+    }
+    .card-search .card {
+        min-width: 260px;
+    }
+    .card-search .card .card-content .icon {
+        width: 150px;
+        height: 150px;
+    }
+    .contact-box {
+        padding-left: 1.5rem;
+    }
+}
+
+
+/*! End responsive */
